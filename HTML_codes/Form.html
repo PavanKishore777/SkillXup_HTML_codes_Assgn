@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+</head>
+<body>
+<center>
+    <h2><u>Feedback Form</u></h2>
+</center>
+
+<center>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label><br>
+            <input id="name" name="name" placeholder="Enter your name" type="text"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input id="email" name="email" placeholder="Enter your email" type="email"><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input id="phone" name="phone" placeholder="Enter your phone number" type="number"><br><br>
+
+            <label for="city">City:</label><br>
+            <input id="city" name="city" placeholder="Enter your city" type="text"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <label>Satisfied with the product?</label><br>
+            <input id="satisfied-yes" name="satisfied" type="radio" value="yes">
+            <label for="satisfied-yes">Yes</label>
+            <input id="satisfied-no" name="satisfied" type="radio" value="no">
+            <label for="satisfied-no">No</label><br><br>
+
+            <input id="agreement" name="agreement" type="checkbox">
+            <label for="agreement">Receive CashBack for feedback by clicking</label><br><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <textarea cols="30" id="feedback" name="feedback" placeholder="Enter your feedback here..." rows="5"></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+</center>
+
+</body>
+</html>
