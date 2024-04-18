@@ -1,0 +1,26 @@
+Questions:
+----------
+
+1. what is HTML elements defines the document type?
+
+ANS==> syntax :<!DOCTYPE HTML> 
+	The HTML element <!DOCTYPE HTML> declares the type of document being used and  specifying both the HTML version and file type.
+=======================================================================================================================================
+
+2. what attributes specifies the source of an image?
+
+ANS==> src specifies an URI/URL/path of an image form the local computer.
+		In here both URI& URL are the addresses of an images whicha re available on the internet
+========================================================================================================================================
+
+3.How can you add a title to your webpage that displays on the browser tab?
+
+ANS==> under the Head tag define  a tag named title which sets the title for your web page.
+
+	syntax:
+	       <Head>
+		<title>
+			MY WEB PAGE TITLE 
+		</title>
+	      </Head>
+==========================================================================================================================================

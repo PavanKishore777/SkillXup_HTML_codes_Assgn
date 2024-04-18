@@ -1,0 +1,48 @@
+1. What attribute specifies type of input field (text,email,etc.,)?
+ANS==>  
+1.<input type="text"> Defines text
+<input type="email">--defines email
+<input type="number">--defines only number
+<input type="date">--defines only date
+<input type="checkbox">--defines to check one or multiple options
+<input type="radio">--defines to check one or multiple options
+<input type="range">--defines to set range of specific value 
+<input type="file">--defines a file to upload 
+<input type="button">--defines a type sof button functionality
+<input type="password">--encrypted password
+<input type="image" >--defines a type of image
+<input type="color" >--to set or choose color as per user requirement 
+
+==============================================================================
+
+2.How can you add label to an input field?
+
+ANS==> 
+syntax:
+-------
+
+<label for="assgnQa">
+    Assgn Q/A
+</label>
+<input type="text" id="assgnQa" name="assgnQa">
+
+================================================================================
+
+3.What attribute specifies the action to be performed when the form is submitted?
+
+ANS==>
+
+syntax:
+-------
+<form action="# or url or the webpage you want to redirect after succesful operation of submitting the form " method="GET/POST">
+    <!--data of form -->
+    
+</form>
+
+form action is specifies where to redirect or other iperation after successfully submitting the form 
+GET/POST are the methods POST is to send data in a secured way  and another is to get data which is submitted which non-secured way 
+
+apart from this we can define a validation of form by using functions like 
+onsubmit="function()"too
+
+==================================================================================================================================================

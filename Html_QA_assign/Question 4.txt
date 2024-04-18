@@ -1,0 +1,51 @@
+1. what are the benefits of minifying HTML code?
+ANS==>
+1.Reduces the file size
+2.render the page faster
+3.Industry standard best practise 
+4.Neet code
+5.Less data usage
+========================================================================================
+
+2.What is the diff between semantic and non-semantic elements/tags?
+
+ANS==>
+
+semantic:
+--------
+This tags convey a proper meaning about the data it holds in it.where it is easy to understand the code by it what it is and what it does too.
+examples:<nav><header><p><section><main><footer><aside> etc.,
+
+non-semantic tags:
+-----------------
+used for mostly styling and layout purposes 
+examples:<div><span><I><b><table> etc.,
+
+==========================================================================================
+
+3.How can you comment sections of your HTML code for better readability?
+
+ANS==>
+By using <!-- comment code -->
+
+example:
+<!--Header of page-->
+<section>
+    <header>
+        <!-- Header data-->
+    </header>
+</section>
+
+<!--bOdy of page-->
+<section>
+    <main>
+        <!--body data -->
+    </main>
+</section>
+
+<!--footer -->
+<section>
+    <footer>
+        <!--footer data-->
+    </footer>
+</section>

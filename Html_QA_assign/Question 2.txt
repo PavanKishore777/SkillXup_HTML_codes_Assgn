@@ -1,0 +1,36 @@
+
+1. What element defines a table row?
+ANS==> tr define s a table row
+         syntax : <tr>  </tr>
+
+===========================================================
+
+2.How can you specify a caption for your table?
+
+ANS==> 
+syntax:
+---------
+<table>
+    <caption>
+        Caption of table 
+    </caption>
+</table>
+ 
+or 
+
+<table>
+    <tr>
+        <td colspan="2">Caption of table</td>
+    </tr>
+</table>
+===========================================================
+
+3. What attribute allows you to span cells across multiple columns?
+
+ANS==> 
+syntax:
+-------
+<td colspan ="2">
+    spanning cells
+</td>       
+
